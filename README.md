@@ -70,13 +70,13 @@ python src/eval_patk.py \
 Precision@k (macro-moyenne sur les requêtes) :
 
 $$
-\mathrm{P@k}(q)=\frac{\#\{\text{docs pertinents dans les }k\text{ premiers}\}}{k}
+\mathrm{P@k}(q)=\frac{\lvert \mathrm{Rel}(q)\cap \mathrm{Top}_k(q)\rvert}{k}
 \qquad
-\mathrm{Macro}\text{-}\mathrm{P@k}
-=\frac{1}{|Q|}\sum_{q\in Q}\mathrm{P@k}(q)
+\text{Macro-P@k}=\frac{1}{\lvert Q\rvert}\sum_{q\in Q}\mathrm{P@k}(q)
 $$
 
-Où \(Q\) est l’ensemble des requêtes; `k` est la coupure (par défaut \(k=10\)).
+*Où* \( \mathrm{Rel}(q) \) est l’ensemble des documents pertinents pour la requête \(q\),  
+\( \mathrm{Top}_k(q) \) les \(k\) premiers documents retournés, et \(Q\) l’ensemble des requêtes (par défaut \(k=10\)).
 
 ## ✅ Résultats (mini dev-set fourni)
 
