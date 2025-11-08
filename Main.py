@@ -6,8 +6,8 @@ def run(cmd):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--bm25_cfg', default='configs/bm25.yaml')
-    ap.add_argument('--hybrid_cfg', default='configs/hybrid.yaml')
+    ap.add_argument('--bm25_cfg', default='Configs/bm25.yaml')
+    ap.add_argument('--hybrid_cfg', default='Configs/hybrid.yaml')
     args = ap.parse_args()
 
     run([sys.executable, 'src/index_bm25.py', '--config', args.bm25_cfg])
