@@ -1,0 +1,13 @@
+index:
+  corpus_dir: data/corpus
+  dense_model: sentence-transformers/all-MiniLM-L6-v2
+  bm25_tokenization: whitespace
+  ngram: 1
+search:
+  bm25_topk: 200
+  dense_topk: 200
+  hybrid_topk: 50
+  alpha: 0.6
+rerank:
+  model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  topk: 20

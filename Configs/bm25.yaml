@@ -1,0 +1,6 @@
+index:
+  corpus_dir: data/corpus
+  tokenization: whitespace
+  ngram: 1
+search:
+  topk: 50
