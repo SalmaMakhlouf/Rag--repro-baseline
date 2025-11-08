@@ -1,0 +1,1 @@
+Les systèmes RAG combinent retrieval et LLM ; le reranking améliore la précision.

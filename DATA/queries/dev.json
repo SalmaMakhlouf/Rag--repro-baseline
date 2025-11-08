@@ -1,0 +1,12 @@
+{
+  "queries": [
+    {"id": "q1", "text": "traitement pour constipation Duphalac"},
+    {"id": "q2", "text": "médicament contre douleurs abdominales intestin"},
+    {"id": "q3", "text": "qu est ce que RAG avec LLM et reranking"}
+  ],
+  "gold": {
+    "q1": ["doc1.txt"],
+    "q2": ["doc2.txt"],
+    "q3": ["doc3.txt"]
+  }
+}

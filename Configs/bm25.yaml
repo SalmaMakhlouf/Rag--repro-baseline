@@ -1,5 +1,5 @@
 index:
-  corpus_dir: DATA/corpus
+  corpus_dir: DATA/Corpus
   tokenization: whitespace
   ngram: 1
 search:

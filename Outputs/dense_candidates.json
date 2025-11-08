@@ -1,0 +1,56 @@
+[
+  {
+    "qid": "q1",
+    "query": "traitement pour constipation Duphalac",
+    "candidates": [
+      {
+        "doc_id": "doc1.txt",
+        "score": 0.7545960545539856
+      },
+      {
+        "doc_id": "doc2.txt",
+        "score": 0.5615659952163696
+      },
+      {
+        "doc_id": "doc3.txt",
+        "score": 0.22906163334846497
+      }
+    ]
+  },
+  {
+    "qid": "q2",
+    "query": "médicament contre douleurs abdominales intestin",
+    "candidates": [
+      {
+        "doc_id": "doc2.txt",
+        "score": 0.6643024682998657
+      },
+      {
+        "doc_id": "doc1.txt",
+        "score": 0.37847229838371277
+      },
+      {
+        "doc_id": "doc3.txt",
+        "score": 0.10464300960302353
+      }
+    ]
+  },
+  {
+    "qid": "q3",
+    "query": "qu est ce que RAG avec LLM et reranking",
+    "candidates": [
+      {
+        "doc_id": "doc3.txt",
+        "score": 0.5744941830635071
+      },
+      {
+        "doc_id": "doc2.txt",
+        "score": 0.3592446446418762
+      },
+      {
+        "doc_id": "doc1.txt",
+        "score": 0.24397921562194824
+      }
+    ]
+  }
+]

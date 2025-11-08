@@ -1,0 +1,44 @@
+{
+  "macro_p@k": 0.3333333333333333,
+  "details": [
+    {
+      "qid": "q1",
+      "p@k": 0.3333333333333333,
+      "hits": 1,
+      "preds": [
+        "doc3.txt",
+        "doc2.txt",
+        "doc1.txt"
+      ],
+      "gold": [
+        "doc1.txt"
+      ]
+    },
+    {
+      "qid": "q2",
+      "p@k": 0.3333333333333333,
+      "hits": 1,
+      "preds": [
+        "doc3.txt",
+        "doc2.txt",
+        "doc1.txt"
+      ],
+      "gold": [
+        "doc2.txt"
+      ]
+    },
+    {
+      "qid": "q3",
+      "p@k": 0.3333333333333333,
+      "hits": 1,
+      "preds": [
+        "doc3.txt",
+        "doc1.txt",
+        "doc2.txt"
+      ],
+      "gold": [
+        "doc3.txt"
+      ]
+    }
+  ]
+}

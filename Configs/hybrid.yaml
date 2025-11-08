@@ -1,5 +1,5 @@
 index:
-  corpus_dir: DATA/corpus
+  corpus_dir: DATA/Corpus
   dense_model: sentence-transformers/all-MiniLM-L6-v2
   bm25_tokenization: whitespace
   ngram: 1

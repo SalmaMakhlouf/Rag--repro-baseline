@@ -1,0 +1,53 @@
+[
+  {
+    "qid": "q1",
+    "candidates": [
+      {
+        "doc_id": "doc3.txt",
+        "score": -10.964249610900879
+      },
+      {
+        "doc_id": "doc2.txt",
+        "score": -10.967005729675293
+      },
+      {
+        "doc_id": "doc1.txt",
+        "score": -11.003918647766113
+      }
+    ]
+  },
+  {
+    "qid": "q2",
+    "candidates": [
+      {
+        "doc_id": "doc3.txt",
+        "score": -10.81230640411377
+      },
+      {
+        "doc_id": "doc2.txt",
+        "score": -10.819480895996094
+      },
+      {
+        "doc_id": "doc1.txt",
+        "score": -10.852309226989746
+      }
+    ]
+  },
+  {
+    "qid": "q3",
+    "candidates": [
+      {
+        "doc_id": "doc3.txt",
+        "score": -10.945324897766113
+      },
+      {
+        "doc_id": "doc1.txt",
+        "score": -10.950855255126953
+      },
+      {
+        "doc_id": "doc2.txt",
+        "score": -10.955891609191895
+      }
+    ]
+  }
+]
