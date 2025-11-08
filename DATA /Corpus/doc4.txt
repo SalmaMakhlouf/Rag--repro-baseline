@@ -1,0 +1,1 @@
+Les systèmes RAG combinent récupération de documents et génération par LLM. Le reranking via cross-encoder améliore la précision.
